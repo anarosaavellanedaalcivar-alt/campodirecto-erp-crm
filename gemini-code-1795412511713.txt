@@ -1,0 +1,20 @@
+campodirecto-erp-crm/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml              <-- Despliegue automático a GitHub Pages
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── data/
+│   │   └── initialData.ts          <-- Datos base de Carchi y Ecuador (con etiqueta demo)
+│   ├── types/
+│   │   └── index.ts                <-- Tipado TypeScript para ERP, CRM y Comex
+│   ├── App.tsx                     <-- Aplicación completa CampoDirecto ERP + CRM
+│   ├── index.css                   <-- Estilos Tailwind CSS
+│   └── main.tsx                    <-- Punto de entrada React
+├── index.html
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+├── tsconfig.json
+└── vite.config.ts
